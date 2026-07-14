@@ -13,7 +13,7 @@ const siteConfig = {
     en: {
       metaTitle: "Krishna Rasoi | Tiffin Service in Kolar, Bhopal",
       metaDescription:
-        "Affordable home-style tiffin service in Kolar, Bhopal. Perfect for students & bachelors. Monthly plan ₹2,700 or single tiffin ₹100. Order on WhatsApp!",
+        "Affordable home-style tiffin service in Kolar, Bhopal. Perfect for students & bachelors. Monthly plan ₹2,800 or single tiffin ₹100. Order on WhatsApp!",
 
       navMenu: "Menu",
       navPlans: "Plans",
@@ -90,7 +90,7 @@ const siteConfig = {
     hi: {
       metaTitle: "कृष्ण रसोई | कोलर, भोपाल में टिफिन सेवा",
       metaDescription:
-        "कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,700 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!",
+        "कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,800 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!",
 
       navMenu: "मेनू",
       navPlans: "प्लान",
@@ -166,10 +166,10 @@ const siteConfig = {
 
   plans: [
     {
-      price: "₹2,700",
+      price: "₹2,800",
       priceUnit: { en: "/month", hi: "/माह" },
       featured: true,
-      math: { en: "= ₹90/tiffin", hi: "= ₹90/टिफिन" },
+      math: { en: "= ₹93/tiffin", hi: "= ₹93/टिफिन" },
       features: {
         en: ["All 30 days of the month", "Lunch + dinner options", "Different menu every day"],
         hi: ["महीने के पूरे 30 दिन", "लंच + डिनर विकल्प", "रोज़ अलग मेनू"],
@@ -177,12 +177,12 @@ const siteConfig = {
       en: {
         name: "Monthly Plan",
         cta: "Start on WhatsApp",
-        message: "Hi, I'm interested in the Monthly Tiffin plan (₹2,700/month)",
+        message: "Hi, I'm interested in the Monthly Tiffin plan (₹2,800/month)",
       },
       hi: {
         name: "मंथली प्लान",
         cta: "WhatsApp पर शुरू करें",
-        message: "नमस्ते, मुझे मासिक टिफिन प्लान (₹2,700/माह) में दिलचस्पी है",
+        message: "नमस्ते, मुझे मासिक टिफिन प्लान (₹2,800/माह) में दिलचस्पी है",
       },
     },
     {

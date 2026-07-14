@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>कृष्ण रसोई | कोलर, भोपाल में टिफिन सेवा</title>
-  <meta name="description" content="कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,700 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!">
+  <meta name="description" content="कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,800 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!">
   <meta name="keywords" content="tiffin service Kolar Bhopal, student tiffin, bachelor food, Krishna Rasoi, टिफिन सेवा भोपाल">
   <link rel="canonical" href="https://krishnarasoi.in/">
   <link rel="alternate" hreflang="hi" href="https://krishnarasoi.in/">
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://krishnarasoi.in/">
   <meta property="og:title" content="कृष्ण रसोई | कोलर, भोपाल में टिफिन सेवा">
-  <meta property="og:description" content="कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। मासिक ₹2,700 या सिंगल टिफिन ₹100।">
+  <meta property="og:description" content="कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। मासिक ₹2,800 या सिंगल टिफिन ₹100।">
   <meta property="og:locale" content="hi_IN">
   <meta property="og:site_name" content="Krishna Rasoi">
   <meta property="og:image" content="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1200&q=80">
@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Tiro+Devanagari+Hindi&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
 
@@ -85,7 +86,24 @@
 
       <div class="hero-visual" data-reveal>
         <div class="steam" aria-hidden="true"><span></span><span></span><span></span></div>
-        <img class="hero-thali" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900&q=80" alt="कृष्ण रसोई की घर जैसी थाली — रोटी, दाल, सब्ज़ी और चावल" width="560" height="560" loading="eager" fetchpriority="high">
+        <model-viewer class="hero-thali hero-bowl"
+          src="models/soup_bowl.glb"
+          alt="कृष्ण रसोई की गरम दाल का कटोरा — घुमाने के लिए स्वाइप करें"
+          camera-controls
+          disable-zoom
+          disable-pan
+          disable-tap
+          interaction-prompt="none"
+          auto-rotate
+          auto-rotate-delay="1500"
+          rotation-per-second="20deg"
+          camera-orbit="45deg 68deg 0.32m"
+          min-camera-orbit="auto 60deg 0.32m"
+          max-camera-orbit="auto 78deg 0.32m"
+          shadow-intensity="1"
+          shadow-softness="0.8"
+          exposure="1.1"
+          loading="eager"></model-viewer>
         <img class="garnish garnish--coriander" src="https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?w=240&q=70" alt="" width="120" height="120" loading="lazy" onerror="this.style.display='none'">
         <img class="garnish garnish--roti" src="https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?w=280&q=70" alt="" width="140" height="140" loading="lazy" onerror="this.style.display='none'">
         <div class="glass-chip hero-chip hero-chip--price">
@@ -285,7 +303,7 @@
           <h4 data-i18n="footerContact">संपर्क</h4>
           <a href="tel:+918236091414">+91 82360 91414</a>
           <a id="footer-whatsapp" href="https://wa.me/918236091414" target="_blank" rel="noopener">WhatsApp: 8236091414</a>
-          <p id="footer-address">कोलर, भोपाल, मध्य प्रदेश</p>
+          <a id="footer-address" href="https://maps.app.goo.gl/tPmo7xXdEa3Ygjq9A?g_st=ic" target="_blank" rel="noopener">कोलर, भोपाल, मध्य प्रदेश</a>
         </div>
       </div>
       <div class="footer-divider" aria-hidden="true">
