@@ -1256,10 +1256,16 @@ h3 {
   padding-bottom: var(--space-xl);
 }
 
+.map-section .section-header {
+  text-align: center;
+}
+
 .map-frame {
   width: 100%;
+  max-width: 900px;
   height: 360px;
   padding: 10px;
+  margin: 0 auto;
   border-radius: 28px;
   overflow: hidden;
   background: #fff;
@@ -1275,18 +1281,18 @@ h3 {
 }
 
 .map-caption {
-  margin-top: var(--space-sm);
+  margin-top: var(--space-md);
   text-align: center;
   color: var(--ink-600);
 }
 
-.map-caption a {
+.map-caption a:not(.btn) {
   color: var(--saffron-600);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.map-caption a:hover {
+.map-caption a:not(.btn):hover {
   color: var(--saffron-700);
 }
 
