@@ -86,24 +86,12 @@
 
       <div class="hero-visual" data-reveal>
         <div class="steam" aria-hidden="true"><span></span><span></span><span></span></div>
-        <model-viewer class="hero-thali hero-bowl"
-          src="models/soup_bowl.glb"
-          alt="कृष्ण रसोई की गरम दाल का कटोरा — घुमाने के लिए स्वाइप करें"
-          camera-controls
-          disable-zoom
-          disable-pan
-          disable-tap
-          interaction-prompt="none"
-          auto-rotate
-          auto-rotate-delay="1500"
-          rotation-per-second="20deg"
-          camera-orbit="45deg 68deg 0.32m"
-          min-camera-orbit="auto 60deg 0.32m"
-          max-camera-orbit="auto 78deg 0.32m"
-          shadow-intensity="1"
-          shadow-softness="0.8"
-          exposure="1.1"
-          loading="eager"></model-viewer>
+        <img class="hero-thali"
+          src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80"
+          alt="Indian home-style thali with roti, dal and sabzi"
+          width="800"
+          height="600"
+          loading="eager">
         <img class="garnish garnish--coriander" src="https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?w=240&q=70" alt="" width="120" height="120" loading="lazy" onerror="this.style.display='none'">
         <img class="garnish garnish--roti" src="https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?w=280&q=70" alt="" width="140" height="140" loading="lazy" onerror="this.style.display='none'">
         <div class="glass-chip hero-chip hero-chip--price">
@@ -178,6 +166,35 @@
           <h3 data-i18n="why3Title">समय की पाबंदी</h3>
           <p data-i18n="why3Text">लंच और डिनर, तय समय पर आपके दरवाज़े।</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5b. Interactive bowl -->
+  <section class="section bowl-section" id="bowl">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <h2 class="section-title" data-i18n="bowlTitle">कटोरा घुमाएँ</h2>
+      </div>
+      <div class="bowl-stage" data-reveal>
+        <model-viewer class="bowl-model"
+          src="models/soup_bowl.glb"
+          alt="कृष्ण रसोई की गरम दाल का कटोरा — घुमाने के लिए स्वाइप करें"
+          camera-controls
+          disable-zoom
+          disable-pan
+          disable-tap
+          interaction-prompt="none"
+          auto-rotate
+          auto-rotate-delay="1500"
+          rotation-per-second="20deg"
+          camera-orbit="45deg 68deg 0.32m"
+          min-camera-orbit="auto 60deg 0.32m"
+          max-camera-orbit="auto 78deg 0.32m"
+          shadow-intensity="1"
+          shadow-softness="0.8"
+          exposure="1.1"
+          loading="lazy"></model-viewer>
       </div>
     </div>
   </section>

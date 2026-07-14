@@ -465,7 +465,17 @@ h3 {
   box-shadow: var(--shadow-lg);
 }
 
-.hero-bowl {
+.bowl-section {
+  padding: var(--space-xl) 0;
+}
+
+.bowl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bowl-model {
   display: block;
   width: min(100%, 480px);
   height: auto;
@@ -476,7 +486,7 @@ h3 {
   --progress-bar-color: var(--saffron-600);
 }
 
-.hero-bowl:active {
+.bowl-model:active {
   cursor: grabbing;
 }
 

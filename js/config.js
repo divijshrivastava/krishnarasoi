@@ -73,6 +73,8 @@ const siteConfig = {
       dinnerLabel: "Dinner",
       oClock: "",
 
+      bowlTitle: "Spin the bowl",
+
       faqTitle: "Frequently Asked Questions",
 
       ctaTitle: "Order your first tiffin today",
@@ -151,6 +153,8 @@ const siteConfig = {
       lunchLabel: "लंच",
       dinnerLabel: "डिनर",
       oClock: "बजे",
+
+      bowlTitle: "कटोरा घुमाएँ",
 
       faqTitle: "अक्सर पूछे जाने वाले सवाल",
 
