@@ -465,6 +465,21 @@ h3 {
   box-shadow: var(--shadow-lg);
 }
 
+.hero-bowl {
+  display: block;
+  width: min(100%, 480px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background: radial-gradient(circle at 50% 38%, var(--cream-50) 0%, var(--saffron-100) 62%, var(--turmeric-300) 130%);
+  cursor: grab;
+  --poster-color: transparent;
+  --progress-bar-color: var(--saffron-600);
+}
+
+.hero-bowl:active {
+  cursor: grabbing;
+}
+
 .garnish {
   position: absolute;
   border-radius: 50%;
