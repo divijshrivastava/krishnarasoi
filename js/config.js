@@ -78,6 +78,9 @@ const siteConfig = {
       ctaTitle: "Order your first tiffin today",
       ctaSub: "No advance — taste it first",
 
+      locationTitle: "Find us",
+      locationViewMap: "Open in Google Maps",
+
       footerTagline: "Ghar jaisa khana, roz taza",
       footerLinks: "Links",
       footerContact: "Contact",
@@ -153,6 +156,9 @@ const siteConfig = {
 
       ctaTitle: "आज ही पहला टिफिन मंगवाइए",
       ctaSub: "कोई एडवांस नहीं — पहले खाकर देखिए",
+
+      locationTitle: "हमें खोजें",
+      locationViewMap: "Google Maps में खोलें",
 
       footerTagline: "घर जैसा खाना, रोज़ ताज़ा",
       footerLinks: "लिंक",
