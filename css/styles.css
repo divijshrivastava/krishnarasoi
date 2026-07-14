@@ -476,29 +476,32 @@ h3 {
   box-shadow: var(--shadow-lg);
 }
 
-.bowl-section {
-  padding: var(--space-xl) 0;
-}
-
-.bowl-stage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bowl-model {
-  display: block;
-  width: min(100%, 480px);
-  height: auto;
+.bg-bowl-wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(90vw, 760px);
   aspect-ratio: 1 / 1;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bg-bowl {
+  display: block;
+  width: 100%;
+  height: 100%;
   background: radial-gradient(circle at 50% 38%, var(--cream-50) 0%, var(--saffron-100) 62%, var(--turmeric-300) 130%);
-  cursor: grab;
   --poster-color: transparent;
   --progress-bar-color: var(--saffron-600);
 }
 
-.bowl-model:active {
-  cursor: grabbing;
+@media (max-width: 768px) {
+  .bg-bowl-wrap {
+    width: min(95vw, 420px);
+    opacity: 0.04;
+  }
 }
 
 .garnish {

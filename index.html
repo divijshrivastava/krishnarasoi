@@ -28,6 +28,28 @@
 </head>
 <body>
 
+  <!-- Background rotating bowl -->
+  <div class="bg-bowl-wrap" aria-hidden="true">
+    <model-viewer class="bg-bowl"
+      src="models/soup_bowl.glb"
+      alt=""
+      camera-controls
+      disable-zoom
+      disable-pan
+      disable-tap
+      interaction-prompt="none"
+      auto-rotate
+      auto-rotate-delay="1500"
+      rotation-per-second="20deg"
+      camera-orbit="45deg 68deg 0.32m"
+      min-camera-orbit="auto 60deg 0.32m"
+      max-camera-orbit="auto 78deg 0.32m"
+      shadow-intensity="1"
+      shadow-softness="0.8"
+      exposure="1.1"
+      loading="lazy"></model-viewer>
+  </div>
+
   <!-- 1. Nav capsule -->
   <header class="nav-capsule" id="nav">
     <a href="#top" class="logo" aria-label="Krishna Rasoi">
@@ -166,35 +188,6 @@
           <h3 data-i18n="why3Title">समय की पाबंदी</h3>
           <p data-i18n="why3Text">लंच और डिनर, तय समय पर आपके दरवाज़े।</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5b. Interactive bowl -->
-  <section class="section bowl-section" id="bowl">
-    <div class="container">
-      <div class="section-header" data-reveal>
-        <h2 class="section-title" data-i18n="bowlTitle">कटोरा घुमाएँ</h2>
-      </div>
-      <div class="bowl-stage" data-reveal>
-        <model-viewer class="bowl-model"
-          src="models/soup_bowl.glb"
-          alt="कृष्ण रसोई की गरम दाल का कटोरा — घुमाने के लिए स्वाइप करें"
-          camera-controls
-          disable-zoom
-          disable-pan
-          disable-tap
-          interaction-prompt="none"
-          auto-rotate
-          auto-rotate-delay="1500"
-          rotation-per-second="20deg"
-          camera-orbit="45deg 68deg 0.32m"
-          min-camera-orbit="auto 60deg 0.32m"
-          max-camera-orbit="auto 78deg 0.32m"
-          shadow-intensity="1"
-          shadow-softness="0.8"
-          exposure="1.1"
-          loading="lazy"></model-viewer>
       </div>
     </div>
   </section>
