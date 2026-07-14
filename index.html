@@ -15,196 +15,281 @@
   <meta property="og:description" content="कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। मासिक ₹2,700 या सिंगल टिफिन ₹100।">
   <meta property="og:locale" content="hi_IN">
   <meta property="og:site_name" content="Krishna Rasoi">
-  <meta property="og:image" content="https://krishnarasoi.in/images/krishna-rasoi-logo.png">
-  <meta property="og:image:alt" content="Krishna Rasoi — Satvik Food, Pure Delight">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1200&q=80">
+  <meta property="og:image:alt" content="Indian home-style thali — Krishna Rasoi tiffin service">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://krishnarasoi.in/images/krishna-rasoi-logo.png">
-  <link rel="icon" href="images/krishna-rasoi-logo.png" type="image/png">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1200&q=80">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Tiro+Devanagari+Hindi&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <a href="#" class="logo" aria-label="Krishna Rasoi">
-        <img src="images/krishna-rasoi-logo.png" alt="Krishna Rasoi — Satvik Food, Pure Delight" class="logo-img" width="1536" height="1024">
-      </a>
-      <div class="header-actions">
-        <div class="lang-toggle">
-          <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
-          <button class="lang-btn active" data-lang="hi" aria-label="हिंदी में बदलें">हिंदी</button>
-        </div>
+  <!-- 1. Nav capsule -->
+  <header class="nav-capsule" id="nav">
+    <a href="#top" class="logo" aria-label="Krishna Rasoi">
+      <img src="images/krishna-rasoi-logo.svg" alt="Krishna Rasoi — Satvik Food, Pure Delight" class="logo-img" width="150" height="40">
+    </a>
+    <nav class="nav-links" aria-label="मुख्य नेविगेशन">
+      <a href="#menu" data-i18n="navMenu">मेनू</a>
+      <a href="#plans" data-i18n="navPlans">प्लान</a>
+      <a href="#how" data-i18n="navHow">कैसे शुरू करें</a>
+      <a href="#contact" data-i18n="navContact">संपर्क</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+        <button class="lang-btn active" data-lang="hi" aria-label="हिंदी में बदलें">हिंदी</button>
       </div>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-sheet" data-i18n="navMenuBtn">मेनू</button>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <span class="hero-badge">Kolar, Bhopal</span>
-        <h1 class="hero-title" data-i18n="tagline">घर जैसा खाना, रोज ताज़ा</h1>
-        <p class="hero-subtext" data-i18n="heroSubtext">कोलर, भोपाल में टिफिन सेवा — छात्रों और बैचलर्स के लिए बेहतरीन</p>
-        <div class="hero-ctas">
+  <div class="nav-sheet" id="nav-sheet" hidden>
+    <nav aria-label="मोबाइल नेविगेशन">
+      <a href="#menu" data-i18n="navMenu">मेनू</a>
+      <a href="#plans" data-i18n="navPlans">प्लान</a>
+      <a href="#how" data-i18n="navHow">कैसे शुरू करें</a>
+      <a href="#contact" data-i18n="navContact">संपर्क</a>
+    </nav>
+  </div>
+
+  <!-- 2. Hero — the stage -->
+  <section class="hero" id="top">
+    <div class="hero-wash" aria-hidden="true"></div>
+    <p class="hero-word" aria-hidden="true" data-i18n="heroWord">रसोई</p>
+
+    <div class="hero-stage">
+      <div class="hero-copy">
+        <p class="overline" data-reveal>Kolar, Bhopal</p>
+        <h1 class="hero-title" data-i18n="tagline" data-reveal>घर जैसा खाना, रोज़ ताज़ा</h1>
+        <p class="hero-subtext" data-i18n="heroSubtext" data-reveal>कोलर में छात्रों और बैचलर्स के लिए घर की रसोई से टिफिन</p>
+        <div class="hero-ctas" data-reveal>
           <a id="hero-whatsapp" href="#" class="btn btn-whatsapp" target="_blank" rel="noopener">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             <span data-i18n="ctaWhatsapp">WhatsApp पर ऑर्डर करें</span>
           </a>
-          <a href="#plans" class="btn btn-outline" data-i18n="ctaPlans">प्लान देखें</a>
+          <a href="#plans" class="btn btn-ghost">
+            <span data-i18n="ctaPlans">प्लान देखें</span>
+            <span class="btn-arrow" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </a>
         </div>
-        <div class="hero-trust">
-          <span class="trust-chip" data-i18n="trustFresh">रोज ताज़ा</span>
-          <span class="trust-chip" data-i18n="trustAffordable">किफ़ायती</span>
-          <span class="trust-chip" data-i18n="trustDelivery">समय पर डिलीवरी</span>
+        <ul class="hero-trust" data-reveal>
+          <li class="trust-chip" data-i18n="trustFresh">रोज़ ताज़ा</li>
+          <li class="trust-chip" data-i18n="trustVeg">शुद्ध शाकाहारी</li>
+          <li class="trust-chip" data-i18n="trustDelivery">समय पर डिलीवरी</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="steam" aria-hidden="true"><span></span><span></span><span></span></div>
+        <img class="hero-thali" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900&q=80" alt="कृष्ण रसोई की घर जैसी थाली — रोटी, दाल, सब्ज़ी और चावल" width="560" height="560" loading="eager" fetchpriority="high">
+        <img class="garnish garnish--coriander" src="https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?w=240&q=70" alt="" width="120" height="120" loading="lazy" onerror="this.style.display='none'">
+        <img class="garnish garnish--roti" src="https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?w=280&q=70" alt="" width="140" height="140" loading="lazy" onerror="this.style.display='none'">
+        <div class="glass-chip hero-chip hero-chip--price">
+          <span class="stat">₹100</span>
+          <span class="chip-label" data-i18n="heroChip1">प्रति टिफिन</span>
+        </div>
+        <div class="glass-chip hero-chip hero-chip--fresh">
+          <span class="chip-label" data-i18n="heroChip2">रोज़ सुबह ताज़ा बनता है</span>
         </div>
       </div>
-      <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Indian home-style thali with roti, dal and sabzi" width="800" height="600" loading="eager">
+    </div>
+
+    <a href="#menu" class="scroll-badge" data-i18n-aria="scrollDown" aria-label="नीचे देखें">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- 3. Trust strip -->
+  <section class="trust-strip" aria-label="भरोसे की बातें">
+    <ul class="trust-strip-list">
+      <li data-i18n="strip1">रोज़ ताज़ा</li>
+      <li class="strip-feather" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg></li>
+      <li data-i18n="strip2">शुद्ध शाकाहारी</li>
+      <li class="strip-feather" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg></li>
+      <li data-i18n="strip3">घर की रसोई</li>
+      <li class="strip-feather" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg></li>
+      <li data-i18n="strip4">समय पर डिलीवरी</li>
+      <li class="strip-feather" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg></li>
+      <li data-i18n="strip5">कोलर में डिलीवरी</li>
+    </ul>
+  </section>
+
+  <!-- 4. आज का मेनू -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-header section-header--split" data-reveal>
+        <div>
+          <h2 class="section-title" data-i18n="menuTitle">आज का मेनू</h2>
+          <p class="section-subtitle" data-i18n="menuSubtitle">सोमवार से रविवार, हर दिन अलग स्वाद</p>
+        </div>
+        <p class="slide-counter" aria-hidden="true"><span id="menu-counter-current">01</span> — 07</p>
       </div>
+      <div class="menu-scroller reveal-children" id="menu-scroller" data-reveal tabindex="0" aria-label="हफ्ते का मेनू"></div>
     </div>
   </section>
 
-  <!-- Why Us -->
-  <section class="section" id="why">
+  <!-- 5. कृष्ण रसोई क्यों? -->
+  <section class="section section--alt" id="why">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" data-reveal>
         <h2 class="section-title" data-i18n="whyTitle">कृष्ण रसोई क्यों?</h2>
       </div>
-      <div class="why-grid">
+      <div class="why-grid reveal-children" data-reveal>
         <div class="why-card">
-          <div class="why-icon">💰</div>
-          <h3 data-i18n="why1Title">छात्रों के लिए किफ़ायती</h3>
-          <p data-i18n="why1Text">होस्टल बजट में फिट होने वाले मासिक प्लान और सिंगल मील — सिर्फ ₹100 से शुरू।</p>
+          <div class="why-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3"/><path d="M9 13c6.667 0 6.667-10 0-10"/></svg>
+          </div>
+          <h3 data-i18n="why1Title">छात्रों के बजट में</h3>
+          <p data-i18n="why1Text">₹100 से शुरू, कोई डिलीवरी चार्ज नहीं — होस्टल बजट में फिट।</p>
         </div>
         <div class="why-card">
-          <div class="why-icon">🏠</div>
-          <h3 data-i18n="why2Title">घर जैसा खाना</h3>
-          <p data-i18n="why2Text">रोटी, दाल, सब्ज़ी, चावल — सादा, पौष्टिक खाना जैसे घर पर बनता है।</p>
+          <div class="why-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7a3 3 0 0 1 6 0"/><rect x="5" y="9" width="14" height="5" rx="2"/><rect x="5" y="16" width="14" height="5" rx="2"/></svg>
+          </div>
+          <h3 data-i18n="why2Title">घर का असली स्वाद</h3>
+          <p data-i18n="why2Text">रोज़ सुबह घर की रसोई में, शुद्ध सामग्री से बनता है।</p>
         </div>
         <div class="why-card">
-          <div class="why-icon">🛵</div>
-          <h3 data-i18n="why3Title">भरोसेमंद डिलीवरी</h3>
-          <p data-i18n="why3Text">कोलर और आस-पास के इलाकों में तय समय पर डिलीवरी। रोज समय पर टिफिन।</p>
+          <div class="why-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>
+          </div>
+          <h3 data-i18n="why3Title">समय की पाबंदी</h3>
+          <p data-i18n="why3Text">लंच और डिनर, तय समय पर आपके दरवाज़े।</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Plans -->
-  <section class="section plans-section" id="plans">
+  <!-- 6. Plans -->
+  <section class="section" id="plans">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" data-reveal>
         <h2 class="section-title" data-i18n="plansTitle">टिफिन प्लान</h2>
         <p class="section-subtitle" data-i18n="plansSubtitle">अपने हिसाब से चुनें</p>
       </div>
-      <div class="plans-grid" id="plans-grid"></div>
+      <div class="plans-grid reveal-children" id="plans-grid" data-reveal></div>
     </div>
   </section>
 
-  <!-- Menu -->
-  <section class="section" id="menu">
+  <!-- 7. कैसे शुरू करें -->
+  <section class="section section--alt" id="how">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title" data-i18n="menuTitle">नमूना मेन्यू</h2>
-        <p class="section-subtitle" data-i18n="menuSubtitle">हमारा मेन्यू रोज बदलता है — यहाँ कुछ उदाहरण हैं</p>
+      <div class="section-header" data-reveal>
+        <h2 class="section-title" data-i18n="howTitle">कैसे शुरू करें</h2>
+        <p class="section-subtitle" data-i18n="howSubtitle">तीन आसान कदम</p>
       </div>
-      <div class="menu-grid" id="menu-grid"></div>
-      <p class="menu-note" data-i18n="menuNote">मेन्यू रोज बदलता है — आज का मेन्यू WhatsApp पर पूछें</p>
-    </div>
-  </section>
-
-  <!-- How It Works -->
-  <section class="section how-section" id="how">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title" data-i18n="howTitle">कैसे काम करता है</h2>
-        <p class="section-subtitle" data-i18n="howSubtitle">शुरू करना बहुत आसान है</p>
-      </div>
-      <div class="how-steps">
+      <div class="how-steps reveal-children" data-reveal>
         <div class="how-step">
-          <div class="how-step-num">1</div>
-          <div>
-            <h3 data-i18n="how1Title">हमें मैसेज करें</h3>
-            <p data-i18n="how1Text">WhatsApp पर अपना प्लान चुनकर हमें मैसेज भेजें।</p>
-          </div>
+          <p class="how-step-num" aria-hidden="true">01</p>
+          <h3 data-i18n="how1Title">WhatsApp पर मैसेज करें</h3>
+          <p data-i18n="how1Text">"Hi" भेजिए, बस।</p>
         </div>
         <div class="how-step">
-          <div class="how-step-num">2</div>
-          <div>
-            <h3 data-i18n="how2Title">पता कन्फर्म करें</h3>
-            <p data-i18n="how2Text">कोलर या आस-पास का अपना डिलीवरी पता बताएं।</p>
-          </div>
+          <p class="how-step-num" aria-hidden="true">02</p>
+          <h3 data-i18n="how2Title">अपना प्लान चुनें</h3>
+          <p data-i18n="how2Text">सिंगल या मंथली — आज का मेनू भी पूछ लीजिए।</p>
         </div>
         <div class="how-step">
-          <div class="how-step-num">3</div>
-          <div>
-            <h3 data-i18n="how3Title">रोज टिफिन का आनंद लें</h3>
-            <p data-i18n="how3Text">ताज़ा, घर जैसा खाना अपने दरवाज़े पर पाएं।</p>
-          </div>
+          <p class="how-step-num" aria-hidden="true">03</p>
+          <h3 data-i18n="how3Title">टिफिन घर पहुँच गया</h3>
+          <p data-i18n="how3Text">तय समय पर, गरम और ताज़ा।</p>
+        </div>
+        <div class="how-feather" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Testimonials — dark band -->
+  <section class="testimonials" id="testimonials">
+    <div class="container" data-reveal>
+      <blockquote class="testimonial-quote">
+        <p id="testimonial-text"></p>
+        <footer id="testimonial-meta" class="testimonial-meta"></footer>
+      </blockquote>
+      <div class="testimonial-controls">
+        <button class="testimonial-btn" id="testimonial-prev" aria-label="पिछली राय">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+        </button>
+        <button class="testimonial-btn" id="testimonial-next" aria-label="अगली राय">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Delivery area & timings -->
+  <section class="section" id="area">
+    <div class="container area-grid">
+      <div data-reveal>
+        <h2 class="section-title" data-i18n="areaTitle">कोलर में डिलीवरी</h2>
+        <p class="section-subtitle" data-i18n="areaSubtitle">इन इलाकों में रोज़ टिफिन पहुँचता है</p>
+        <ul class="area-chips" id="area-chips"></ul>
+        <p class="area-note" data-i18n="deliveryNote">आपका इलाका नहीं दिख रहा? WhatsApp पर पूछ लीजिए।</p>
+      </div>
+      <div class="area-timings" data-reveal>
+        <div class="glass-chip timing-chip">
+          <span class="chip-label" data-i18n="lunchLabel">लंच</span>
+          <span class="stat stat--small">12–2 <span data-i18n="oClock">बजे</span></span>
+        </div>
+        <div class="glass-chip timing-chip">
+          <span class="chip-label" data-i18n="dinnerLabel">डिनर</span>
+          <span class="stat stat--small">7:30–9 <span data-i18n="oClock">बजे</span></span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Location -->
-  <section class="section" id="location">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title" data-i18n="locationTitle">स्थान और डिलीवरी</h2>
-        <p class="section-subtitle" data-i18n="locationSubtitle">कोलर, भोपाल में सेवा</p>
-      </div>
-      <div class="location-grid">
-        <div class="location-info">
-          <p><strong>Krishna Rasoi</strong></p>
-          <p id="footer-address">कोलर, भोपाल, मध्य प्रदेश</p>
-          <p><a href="tel:+918236091414">+91 82360 91414</a></p>
-          <p style="margin-top:16px" data-i18n="deliveryNote">कोलर और आस-पास के इलाकों में सेवा — डिलीवरी के लिए हमें मैसेज करें।</p>
-        </div>
-        <div class="location-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.1076!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4288828e3f7b%3A0x4f2f0f5c5e5e5e5e!2sKolar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Krishna Rasoi location in Kolar, Bhopal">
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section" id="faq">
-    <div class="container">
-      <div class="section-header">
+  <!-- 10. FAQ -->
+  <section class="section section--alt" id="faq">
+    <div class="container container--narrow">
+      <div class="section-header" data-reveal>
         <h2 class="section-title" data-i18n="faqTitle">अक्सर पूछे जाने वाले सवाल</h2>
       </div>
-      <div class="faq-list" id="faq-list"></div>
+      <div class="faq-list" id="faq-list" data-reveal></div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- 11. Final CTA band -->
+  <section class="cta-band" id="contact">
+    <div class="steam steam--cta" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container" data-reveal>
+      <h2 class="cta-title" data-i18n="ctaTitle">आज ही पहला टिफिन मंगवाइए</h2>
+      <p class="cta-sub" data-i18n="ctaSub">कोई एडवांस नहीं — पहले खाकर देखिए</p>
+      <a id="cta-whatsapp" href="#" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span data-i18n="ctaWhatsapp">WhatsApp पर ऑर्डर करें</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 12. Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="logo">
-            <img src="images/krishna-rasoi-logo.png" alt="Krishna Rasoi — Satvik Food, Pure Delight" class="logo-img logo-img--footer" width="1536" height="1024">
-          </div>
-          <p class="footer-tagline" data-i18n="footerTagline">घर जैसा खाना, रोज ताज़ा</p>
+          <img src="images/krishna-rasoi-logo-dark.svg" alt="Krishna Rasoi — Satvik Food, Pure Delight" class="logo-img logo-img--footer" width="200" height="53">
+          <p class="footer-tagline" data-i18n="footerTagline">घर जैसा खाना, रोज़ ताज़ा</p>
         </div>
         <div class="footer-links">
-          <h4 data-i18n="footerCall">कॉल करें</h4>
+          <h4 data-i18n="footerLinks">लिंक</h4>
+          <a href="#menu" data-i18n="navMenu">मेनू</a>
+          <a href="#plans" data-i18n="navPlans">प्लान</a>
+          <a href="#how" data-i18n="navHow">कैसे शुरू करें</a>
+          <a href="#faq" data-i18n="navFaq">सवाल-जवाब</a>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footerContact">संपर्क</h4>
           <a href="tel:+918236091414">+91 82360 91414</a>
+          <a id="footer-whatsapp" href="https://wa.me/918236091414" target="_blank" rel="noopener">WhatsApp: 8236091414</a>
+          <p id="footer-address">कोलर, भोपाल, मध्य प्रदेश</p>
         </div>
-        <div class="footer-links">
-          <h4 data-i18n="footerWhatsapp">WhatsApp</h4>
-          <a id="footer-whatsapp" href="https://wa.me/918236091414" target="_blank" rel="noopener">8236091414</a>
-        </div>
+      </div>
+      <div class="footer-divider" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c3.5 4.5 5 9 5 12.5a5 5 0 0 1-10 0C7 11 8.5 6.5 12 2z"/></svg>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Krishna Rasoi. <span data-i18n="footerRights">सर्वाधिकार सुरक्षित।</span></p>
@@ -212,9 +297,9 @@
     </div>
   </footer>
 
-  <!-- Floating WhatsApp -->
-  <a id="float-whatsapp" href="#" class="float-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <!-- WhatsApp FAB (mobile) -->
+  <a id="float-whatsapp" href="#" class="fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
 
   <script src="js/config.js"></script>

@@ -3,8 +3,6 @@ const siteConfig = {
   whatsapp: "918236091414",
   phone: "+91 82360 91414",
   phoneTel: "+918236091414",
-  mapsEmbed:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4288828e3f7b%3A0x4f2f0f5c5e5e5e5e!2sKolar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
 
   address: {
     en: "Kolar, Bhopal, Madhya Pradesh",
@@ -16,55 +14,73 @@ const siteConfig = {
       metaTitle: "Krishna Rasoi | Tiffin Service in Kolar, Bhopal",
       metaDescription:
         "Affordable home-style tiffin service in Kolar, Bhopal. Perfect for students & bachelors. Monthly plan ₹2,700 or single tiffin ₹100. Order on WhatsApp!",
+
+      navMenu: "Menu",
+      navPlans: "Plans",
+      navHow: "How it works",
+      navContact: "Contact",
+      navFaq: "FAQ",
+      navMenuBtn: "Menu",
+
+      heroWord: "RASOI",
       tagline: "Home-style food, fresh every day",
       heroSubtext:
-        "Tiffin service in Kolar, Bhopal — perfect for students & working bachelors",
+        "Tiffin from a home kitchen for students & bachelors in Kolar",
       ctaWhatsapp: "Order on WhatsApp",
       ctaPlans: "View Plans",
       trustFresh: "Fresh daily",
-      trustAffordable: "Affordable",
-      trustDelivery: "Timely delivery",
+      trustVeg: "Pure vegetarian",
+      trustDelivery: "On-time delivery",
+      heroChip1: "per tiffin",
+      heroChip2: "Cooked fresh every morning",
+      scrollDown: "Scroll down",
+
+      strip1: "Fresh daily",
+      strip2: "Pure vegetarian",
+      strip3: "Home kitchen",
+      strip4: "On-time delivery",
+      strip5: "Delivering in Kolar",
+
+      menuTitle: "This Week's Menu",
+      menuSubtitle: "Monday to Sunday, a different taste every day",
 
       whyTitle: "Why Krishna Rasoi?",
-      why1Title: "Student-friendly pricing",
-      why1Text:
-        "Monthly plans and single meals that fit a hostel budget — starting at just ₹100.",
-      why2Title: "Home-style cooking",
-      why2Text:
-        "Roti, dal, sabzi, rice — simple, wholesome meals cooked like home. No oily mess.",
-      why3Title: "Reliable delivery",
-      why3Text:
-        "Fixed delivery slots in Kolar and nearby areas. Your tiffin arrives on time, every day.",
+      why1Title: "Fits a student budget",
+      why1Text: "Starting at ₹100, no delivery charge — made for hostel life.",
+      why2Title: "Real home taste",
+      why2Text: "Cooked fresh every morning in a home kitchen, with pure ingredients.",
+      why3Title: "Always on time",
+      why3Text: "Lunch and dinner at fixed times, at your door.",
 
       plansTitle: "Tiffin Plans",
       plansSubtitle: "Choose what works for you",
-      planBadge: "Most Popular",
-      askWhatsapp: "Ask on WhatsApp",
+      planBadge: "Best value",
+      planMathLabel: "works out to",
 
-      menuTitle: "Sample Menu",
-      menuSubtitle: "Our menu changes daily — here's a taste of what we serve",
-      menuNote: "Menu changes daily — ask us for today's menu on WhatsApp",
-      menuDay: "Day",
+      howTitle: "How to Start",
+      howSubtitle: "Three easy steps",
+      how1Title: "Message us on WhatsApp",
+      how1Text: 'Just send "Hi" — that\'s it.',
+      how2Title: "Pick your plan",
+      how2Text: "Single or monthly — ask for today's menu too.",
+      how3Title: "Tiffin at your door",
+      how3Text: "On time, hot and fresh.",
 
-      howTitle: "How It Works",
-      howSubtitle: "Getting started is easy",
-      how1Title: "Message us",
-      how1Text: "Send us a WhatsApp message with your plan choice.",
-      how2Title: "Confirm address",
-      how2Text: "Share your delivery address in Kolar or nearby areas.",
-      how3Title: "Enjoy daily tiffin",
-      how3Text: "Get fresh, home-style meals delivered to your doorstep.",
-
-      locationTitle: "Location & Delivery",
-      locationSubtitle: "Serving Kolar, Bhopal",
-      deliveryNote:
-        "Serving Kolar and nearby areas — message us to check if we deliver to you.",
+      areaTitle: "Delivering in Kolar",
+      areaSubtitle: "Daily tiffin delivery in these areas",
+      deliveryNote: "Don't see your area? Just ask on WhatsApp.",
+      lunchLabel: "Lunch",
+      dinnerLabel: "Dinner",
+      oClock: "",
 
       faqTitle: "Frequently Asked Questions",
 
+      ctaTitle: "Order your first tiffin today",
+      ctaSub: "No advance — taste it first",
+
       footerTagline: "Ghar jaisa khana, roz taza",
-      footerCall: "Call us",
-      footerWhatsapp: "WhatsApp",
+      footerLinks: "Links",
+      footerContact: "Contact",
       footerRights: "All rights reserved.",
 
       whatsappDefault:
@@ -75,55 +91,72 @@ const siteConfig = {
       metaTitle: "कृष्ण रसोई | कोलर, भोपाल में टिफिन सेवा",
       metaDescription:
         "कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,700 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!",
-      tagline: "घर जैसा खाना, रोज ताज़ा",
-      heroSubtext:
-        "कोलर, भोपाल में टिफिन सेवा — छात्रों और बैचलर्स के लिए बेहतरीन",
+
+      navMenu: "मेनू",
+      navPlans: "प्लान",
+      navHow: "कैसे शुरू करें",
+      navContact: "संपर्क",
+      navFaq: "सवाल-जवाब",
+      navMenuBtn: "मेनू",
+
+      heroWord: "रसोई",
+      tagline: "घर जैसा खाना, रोज़ ताज़ा",
+      heroSubtext: "कोलर में छात्रों और बैचलर्स के लिए घर की रसोई से टिफिन",
       ctaWhatsapp: "WhatsApp पर ऑर्डर करें",
       ctaPlans: "प्लान देखें",
-      trustFresh: "रोज ताज़ा",
-      trustAffordable: "किफ़ायती",
+      trustFresh: "रोज़ ताज़ा",
+      trustVeg: "शुद्ध शाकाहारी",
       trustDelivery: "समय पर डिलीवरी",
+      heroChip1: "प्रति टिफिन",
+      heroChip2: "रोज़ सुबह ताज़ा बनता है",
+      scrollDown: "नीचे देखें",
+
+      strip1: "रोज़ ताज़ा",
+      strip2: "शुद्ध शाकाहारी",
+      strip3: "घर की रसोई",
+      strip4: "समय पर डिलीवरी",
+      strip5: "कोलर में डिलीवरी",
+
+      menuTitle: "इस हफ्ते का मेनू",
+      menuSubtitle: "सोमवार से रविवार, हर दिन अलग स्वाद",
 
       whyTitle: "कृष्ण रसोई क्यों?",
-      why1Title: "छात्रों के लिए किफ़ायती",
-      why1Text:
-        "होस्टल बजट में फिट होने वाले मासिक प्लान और सिंगल मील — सिर्फ ₹100 से शुरू।",
-      why2Title: "घर जैसा खाना",
-      why2Text:
-        "रोटी, दाल, सब्ज़ी, चावल — सादा, पौष्टिक खाना जैसे घर पर बनता है।",
-      why3Title: "भरोसेमंद डिलीवरी",
-      why3Text:
-        "कोलर और आस-पास के इलाकों में तय समय पर डिलीवरी। रोज समय पर टिफिन।",
+      why1Title: "छात्रों के बजट में",
+      why1Text: "₹100 से शुरू, कोई डिलीवरी चार्ज नहीं — होस्टल बजट में फिट।",
+      why2Title: "घर का असली स्वाद",
+      why2Text: "रोज़ सुबह घर की रसोई में, शुद्ध सामग्री से बनता है।",
+      why3Title: "समय की पाबंदी",
+      why3Text: "लंच और डिनर, तय समय पर आपके दरवाज़े।",
 
       plansTitle: "टिफिन प्लान",
       plansSubtitle: "अपने हिसाब से चुनें",
-      planBadge: "सबसे लोकप्रिय",
-      askWhatsapp: "WhatsApp पर पूछें",
+      planBadge: "सबसे किफ़ायती",
+      planMathLabel: "यानी",
 
-      menuTitle: "नमूना मेन्यू",
-      menuSubtitle: "हमारा मेन्यू रोज बदलता है — यहाँ कुछ उदाहरण हैं",
-      menuNote: "मेन्यू रोज बदलता है — आज का मेन्यू WhatsApp पर पूछें",
-      menuDay: "दिन",
+      howTitle: "कैसे शुरू करें",
+      howSubtitle: "तीन आसान कदम",
+      how1Title: "WhatsApp पर मैसेज करें",
+      how1Text: '"Hi" भेजिए, बस।',
+      how2Title: "अपना प्लान चुनें",
+      how2Text: "सिंगल या मंथली — आज का मेनू भी पूछ लीजिए।",
+      how3Title: "टिफिन घर पहुँच गया",
+      how3Text: "तय समय पर, गरम और ताज़ा।",
 
-      howTitle: "कैसे काम करता है",
-      howSubtitle: "शुरू करना बहुत आसान है",
-      how1Title: "हमें मैसेज करें",
-      how1Text: "WhatsApp पर अपना प्लान चुनकर हमें मैसेज भेजें।",
-      how2Title: "पता कन्फर्म करें",
-      how2Text: "कोलर या आस-पास का अपना डिलीवरी पता बताएं।",
-      how3Title: "रोज टिफिन का आनंद लें",
-      how3Text: "ताज़ा, घर जैसा खाना अपने दरवाज़े पर पाएं।",
-
-      locationTitle: "स्थान और डिलीवरी",
-      locationSubtitle: "कोलर, भोपाल में सेवा",
-      deliveryNote:
-        "कोलर और आस-पास के इलाकों में सेवा — डिलीवरी के लिए हमें मैसेज करें।",
+      areaTitle: "कोलर में डिलीवरी",
+      areaSubtitle: "इन इलाकों में रोज़ टिफिन पहुँचता है",
+      deliveryNote: "आपका इलाका नहीं दिख रहा? WhatsApp पर पूछ लीजिए।",
+      lunchLabel: "लंच",
+      dinnerLabel: "डिनर",
+      oClock: "बजे",
 
       faqTitle: "अक्सर पूछे जाने वाले सवाल",
 
-      footerTagline: "घर जैसा खाना, रोज ताज़ा",
-      footerCall: "कॉल करें",
-      footerWhatsapp: "WhatsApp",
+      ctaTitle: "आज ही पहला टिफिन मंगवाइए",
+      ctaSub: "कोई एडवांस नहीं — पहले खाकर देखिए",
+
+      footerTagline: "घर जैसा खाना, रोज़ ताज़ा",
+      footerLinks: "लिंक",
+      footerContact: "संपर्क",
       footerRights: "सर्वाधिकार सुरक्षित।",
 
       whatsappDefault:
@@ -136,30 +169,39 @@ const siteConfig = {
       price: "₹2,700",
       priceUnit: { en: "/month", hi: "/माह" },
       featured: true,
+      math: { en: "= ₹90/tiffin", hi: "= ₹90/टिफिन" },
+      features: {
+        en: ["All 30 days of the month", "Lunch + dinner options", "Different menu every day"],
+        hi: ["महीने के पूरे 30 दिन", "लंच + डिनर विकल्प", "रोज़ अलग मेनू"],
+      },
       en: {
-        name: "Monthly Tiffin",
-        details: "Full month subscription — best value for regular meals",
-        message:
-          "Hi, I'm interested in the Monthly Tiffin plan (₹2,700/month)",
+        name: "Monthly Plan",
+        cta: "Start on WhatsApp",
+        message: "Hi, I'm interested in the Monthly Tiffin plan (₹2,700/month)",
       },
       hi: {
-        name: "मासिक टिफिन",
-        details: "पूरे महीने की सदस्यता — नियमित खाने के लिए सबसे अच्छा",
+        name: "मंथली प्लान",
+        cta: "WhatsApp पर शुरू करें",
         message: "नमस्ते, मुझे मासिक टिफिन प्लान (₹2,700/माह) में दिलचस्पी है",
       },
     },
     {
       price: "₹100",
-      priceUnit: { en: "/meal", hi: "/भोजन" },
+      priceUnit: { en: "/tiffin", hi: "/टिफिन" },
       featured: false,
+      math: null,
+      features: {
+        en: ["Dal, sabzi, roti, rice", "Whenever you feel like it", "Try before subscribing"],
+        hi: ["दाल, सब्ज़ी, रोटी, चावल", "जब मन करे", "सब्सक्राइब से पहले आज़माएँ"],
+      },
       en: {
         name: "Single Tiffin",
-        details: "One meal — try before you subscribe",
+        cta: "Ask on WhatsApp",
         message: "Hi, I'd like to order a single tiffin (₹100)",
       },
       hi: {
         name: "सिंगल टिफिन",
-        details: "एक भोजन — सब्सक्राइब करने से पहले आज़माएं",
+        cta: "WhatsApp पर पूछें",
         message: "नमस्ते, मुझे एक सिंगल टिफिन (₹100) चाहिए",
       },
     },
@@ -167,70 +209,157 @@ const siteConfig = {
 
   menu: [
     {
+      img: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=560&q=70",
       en: { day: "Monday", items: "Dal Tadka, Aloo Gobhi, Jeera Rice, Roti" },
       hi: { day: "सोमवार", items: "दाल तड़का, आलू गोभी, जीरा राइस, रोटी" },
     },
     {
+      img: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=560&q=70",
       en: { day: "Tuesday", items: "Rajma, Bhindi, Rice, Roti" },
       hi: { day: "मंगलवार", items: "राजमा, भिंडी, चावल, रोटी" },
     },
     {
+      img: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=560&q=70",
       en: { day: "Wednesday", items: "Chole, Mixed Veg, Roti" },
       hi: { day: "बुधवार", items: "छोले, मिक्स वेज, रोटी" },
     },
     {
+      img: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=560&q=70",
       en: { day: "Thursday", items: "Kadhi, Aloo Matar, Rice, Roti" },
       hi: { day: "गुरुवार", items: "कढ़ी, आलू मटर, चावल, रोटी" },
     },
     {
+      img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=560&q=70",
       en: { day: "Friday", items: "Paneer Sabzi, Dal, Rice, Roti" },
       hi: { day: "शुक्रवार", items: "पनीर सब्ज़ी, दाल, चावल, रोटी" },
     },
     {
+      img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=560&q=70",
       en: { day: "Saturday", items: "Special Thali — ask on WhatsApp!" },
       hi: { day: "शनिवार", items: "स्पेशल थाली — WhatsApp पर पूछें!" },
     },
+    {
+      img: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=560&q=70",
+      en: { day: "Sunday", items: "Puri-Sabzi, Halwa — Sunday special" },
+      hi: { day: "रविवार", items: "पूड़ी-सब्ज़ी, हलवा — संडे स्पेशल" },
+    },
   ],
+
+  testimonials: [
+    {
+      en: {
+        quote:
+          "Exam week, no mess, no cooking — Krishna Rasoi's tiffin arrived at 12 sharp every single day.",
+        name: "Rohit",
+        area: "Danish Kunj",
+      },
+      hi: {
+        quote:
+          "एग्ज़ाम वीक में न मेस, न खाना बनाना — कृष्ण रसोई का टिफिन रोज़ ठीक 12 बजे आ जाता था।",
+        name: "रोहित",
+        area: "दानिश कुंज",
+      },
+    },
+    {
+      en: {
+        quote:
+          "The dal tastes like my mother made it. For ₹90 a day, I've stopped missing home food.",
+        name: "Sneha",
+        area: "Sarvadharm",
+      },
+      hi: {
+        quote:
+          "दाल का स्वाद बिल्कुल माँ के हाथ जैसा है। ₹90 रोज़ में अब घर के खाने की याद नहीं सताती।",
+        name: "स्नेहा",
+        area: "सर्वधर्म",
+      },
+    },
+    {
+      en: {
+        quote:
+          "I paused my tiffin during holidays with one message. No arguments, no cuttings — just honest service.",
+        name: "Amit",
+        area: "Gehunkheda",
+      },
+      hi: {
+        quote:
+          "छुट्टियों में एक मैसेज से टिफिन रुक गया। न बहस, न पैसे कटे — सीधी, ईमानदार सेवा।",
+        name: "अमित",
+        area: "गेहूंखेड़ा",
+      },
+    },
+  ],
+
+  localities: {
+    en: [
+      "Sarvadharm",
+      "Danish Kunj",
+      "Gehunkheda",
+      "Beema Kunj",
+      "Lalita Nagar",
+      "Mandakini Colony",
+      "Nayapura",
+    ],
+    hi: [
+      "सर्वधर्म",
+      "दानिश कुंज",
+      "गेहूंखेड़ा",
+      "बीमा कुंज",
+      "ललिता नगर",
+      "मंदाकिनी कॉलोनी",
+      "नयापुरा",
+    ],
+  },
 
   faq: [
     {
       en: {
-        q: "What time is lunch/dinner delivered?",
-        a: "Lunch is delivered between 12–1 PM and dinner between 7–8 PM. Exact timing may vary slightly based on your area.",
+        q: "Do you deliver on Sundays?",
+        a: "Yes — all seven days. Sunday has a special menu (puri-sabzi, halwa).",
       },
       hi: {
-        q: "दोपहर/रात का खाना कब मिलता है?",
-        a: "दोपहर 12–1 बजे और रात 7–8 बजे के बीच डिलीवरी होती है। आपके इलाके के हिसाब से समय थोड़ा अलग हो सकता है।",
+        q: "रविवार को टिफिन मिलता है?",
+        a: "हाँ — हफ्ते के सातों दिन। रविवार को स्पेशल मेनू रहता है (पूड़ी-सब्ज़ी, हलवा)।",
       },
     },
     {
       en: {
-        q: "Can I pause tiffin during exams or holidays?",
-        a: "Yes! Just message us on WhatsApp a day in advance and we'll pause your tiffin. No hassle.",
+        q: "Who cooks the food?",
+        a: "Everything is cooked fresh every morning in our own home kitchen — pure vegetarian, satvik food.",
       },
       hi: {
-        q: "क्या परीक्षा या छुट्टियों में टिफिन रोक सकता/सकती हूँ?",
-        a: "हाँ! एक दिन पहले WhatsApp पर बता दें, हम टिफिन रोक देंगे। कोई परेशानी नहीं।",
+        q: "खाना कौन बनाता है?",
+        a: "सारा खाना रोज़ सुबह हमारी अपनी घर की रसोई में बनता है — शुद्ध शाकाहारी, सात्विक खाना।",
       },
     },
     {
       en: {
-        q: "Is there a minimum subscription period?",
-        a: "No minimum for single tiffins. Monthly plans are for one full month. You can try a single ₹100 tiffin first!",
+        q: "How do I pay?",
+        a: "UPI or cash — whatever suits you. No advance needed for your first tiffin; taste it first.",
       },
       hi: {
-        q: "क्या कोई न्यूनतम सदस्यता अवधि है?",
-        a: "सिंगल टिफिन के लिए कोई न्यूनतम नहीं। मासिक प्लान एक पूरे महीने के लिए है। पहले ₹100 का सिंगल टिफिन आज़मा सकते हैं!",
+        q: "पेमेंट कैसे होता है?",
+        a: "UPI या कैश — जो आपको ठीक लगे। पहले टिफिन के लिए कोई एडवांस नहीं — पहले खाकर देखिए।",
       },
     },
     {
       en: {
-        q: "Do you serve vegetarian food?",
-        a: "Yes, we serve pure vegetarian home-style meals. All our food is freshly prepared every day.",
+        q: "Whose tiffin box is it?",
+        a: "We deliver in our own steel tiffin and collect it with the next delivery. You can also give us your own dabba.",
       },
       hi: {
-        q: "क्या आप शाकाहारी खाना देते हैं?",
-        a: "हाँ, हम शुद्ध शाकाहारी घर जैसा खाना देते हैं। सारा खाना रोज ताज़ा बनता है।",
+        q: "टिफिन बॉक्स किसका होता है?",
+        a: "हम अपने स्टील टिफिन में देते हैं और अगली डिलीवरी पर वापस ले लेते हैं। चाहें तो अपना डब्बा भी दे सकते हैं।",
+      },
+    },
+    {
+      en: {
+        q: "What if I take a break mid-month?",
+        a: "Message us on WhatsApp a day before — those days get added to the end of your plan. No money wasted.",
+      },
+      hi: {
+        q: "बीच में छुट्टी ली तो?",
+        a: "एक दिन पहले WhatsApp पर बता दीजिए — वे दिन आपके प्लान के आखिर में जुड़ जाएँगे। पैसा बेकार नहीं जाता।",
       },
     },
   ],

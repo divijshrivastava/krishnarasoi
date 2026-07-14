@@ -15,6 +15,11 @@ function applyTranslations() {
     el.textContent = t(key);
   });
 
+  document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-aria");
+    el.setAttribute("aria-label", t(key));
+  });
+
   document.title = t("metaTitle");
 
   const metaDesc = document.querySelector('meta[name="description"]');
@@ -29,14 +34,12 @@ function applyTranslations() {
   const addressEl = document.getElementById("footer-address");
   if (addressEl) addressEl.textContent = siteConfig.address[currentLang];
 
-  const heroWhatsapp = document.getElementById("hero-whatsapp");
-  if (heroWhatsapp) heroWhatsapp.href = whatsappUrl();
-
-  const floatWhatsapp = document.getElementById("float-whatsapp");
-  if (floatWhatsapp) floatWhatsapp.href = whatsappUrl();
-
-  const footerWhatsapp = document.getElementById("footer-whatsapp");
-  if (footerWhatsapp) footerWhatsapp.href = whatsappUrl();
+  ["hero-whatsapp", "cta-whatsapp", "float-whatsapp", "footer-whatsapp"].forEach(
+    (id) => {
+      const el = document.getElementById(id);
+      if (el) el.href = whatsappUrl();
+    }
+  );
 }
 
 function updateToggleUI() {
