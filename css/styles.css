@@ -218,6 +218,17 @@ h3 {
   background: transparent;
 }
 
+.btn-map {
+  background: var(--saffron-600);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.btn-map:hover,
+.btn-map:focus-visible {
+  background: var(--saffron-700);
+}
+
 .btn-lg {
   min-height: 56px;
   padding: 14px 34px;
