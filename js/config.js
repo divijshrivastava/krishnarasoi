@@ -1,17 +1,17 @@
 const siteConfig = {
-  name: "Krishna Rasoi",
+  name: "कृष्णा रसोई",
   whatsapp: "918236091414",
   phone: "+91 82360 91414",
   phoneTel: "+918236091414",
 
   address: {
     en: "Kolar, Bhopal, Madhya Pradesh",
-    hi: "कोलर, भोपाल, मध्य प्रदेश",
+    hi: "कोलार, भोपाल, मध्य प्रदेश",
   },
 
   translations: {
     en: {
-      metaTitle: "Krishna Rasoi | Tiffin Service in Kolar, Bhopal",
+      metaTitle: "कृष्णा रसोई | Tiffin Service in Kolar, Bhopal",
       metaDescription:
         "Affordable home-style tiffin service in Kolar, Bhopal. Perfect for students & bachelors. Monthly plan ₹2,800 or single tiffin ₹100. Order on WhatsApp!",
 
@@ -44,7 +44,7 @@ const siteConfig = {
       menuTitle: "This Week's Menu",
       menuSubtitle: "Monday to Sunday, a different taste every day",
 
-      whyTitle: "Why Krishna Rasoi?",
+      whyTitle: "Why कृष्णा रसोई?",
       why1Title: "Fits a student budget",
       why1Text: "Starting at ₹100, no delivery charge — made for hostel life.",
       why2Title: "Real home taste",
@@ -87,13 +87,13 @@ const siteConfig = {
       footerRights: "All rights reserved.",
 
       whatsappDefault:
-        "Hi, I'd like to know more about Krishna Rasoi tiffin service.",
+        "Hi, I'd like to know more about कृष्णा रसोई tiffin service.",
     },
 
     hi: {
-      metaTitle: "कृष्ण रसोई | कोलर, भोपाल में टिफिन सेवा",
+      metaTitle: "कृष्णा रसोई | कोलार, भोपाल में टिफिन सेवा",
       metaDescription:
-        "कोलर, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,800 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!",
+        "कोलार, भोपाल में किफ़ायती घर जैसा टिफिन। छात्रों और बैचलर्स के लिए। मासिक ₹2,800 या सिंगल टिफिन ₹100। WhatsApp पर ऑर्डर करें!",
 
       navMenu: "मेनू",
       navPlans: "प्लान",
@@ -104,7 +104,7 @@ const siteConfig = {
 
       heroWord: "रसोई",
       tagline: "घर जैसा खाना, रोज़ ताज़ा",
-      heroSubtext: "कोलर में छात्रों और बैचलर्स के लिए घर की रसोई से टिफिन",
+      heroSubtext: "कोलार में छात्रों और बैचलर्स के लिए घर की रसोई से टिफिन",
       ctaWhatsapp: "WhatsApp पर ऑर्डर करें",
       ctaPlans: "प्लान देखें",
       trustFresh: "रोज़ ताज़ा",
@@ -118,12 +118,12 @@ const siteConfig = {
       strip2: "शुद्ध शाकाहारी",
       strip3: "घर की रसोई",
       strip4: "समय पर डिलीवरी",
-      strip5: "कोलर में डिलीवरी",
+      strip5: "कोलार में डिलीवरी",
 
       menuTitle: "इस हफ्ते का मेनू",
       menuSubtitle: "सोमवार से रविवार, हर दिन अलग स्वाद",
 
-      whyTitle: "कृष्ण रसोई क्यों?",
+      whyTitle: "कृष्णा रसोई क्यों?",
       why1Title: "छात्रों के बजट में",
       why1Text: "₹100 से शुरू, कोई डिलीवरी चार्ज नहीं — होस्टल बजट में फिट।",
       why2Title: "घर का असली स्वाद",
@@ -145,7 +145,7 @@ const siteConfig = {
       how3Title: "टिफिन घर पहुँच गया",
       how3Text: "तय समय पर, गरम और ताज़ा।",
 
-      areaTitle: "कोलर में डिलीवरी",
+      areaTitle: "कोलार में डिलीवरी",
       areaSubtitle: "इन इलाकों में रोज़ टिफिन पहुँचता है",
       deliveryNote: "आपका इलाका नहीं दिख रहा? WhatsApp पर पूछ लीजिए।",
       lunchLabel: "लंच",
@@ -166,7 +166,7 @@ const siteConfig = {
       footerRights: "सर्वाधिकार सुरक्षित।",
 
       whatsappDefault:
-        "नमस्ते, मुझे कृष्ण रसोई टिफिन सेवा के बारे में जानना है।",
+        "नमस्ते, मुझे कृष्णा रसोई टिफिन सेवा के बारे में जानना है।",
     },
   },
 
@@ -255,13 +255,13 @@ const siteConfig = {
     {
       en: {
         quote:
-          "Exam week, no mess, no cooking — Krishna Rasoi's tiffin arrived at 12 sharp every single day.",
+          "Exam week, no mess, no cooking — कृष्णा रसोई's tiffin arrived at 12 sharp every single day.",
         name: "Rohit",
         area: "Danish Kunj",
       },
       hi: {
         quote:
-          "एग्ज़ाम वीक में न मेस, न खाना बनाना — कृष्ण रसोई का टिफिन रोज़ ठीक 12 बजे आ जाता था।",
+          "एग्ज़ाम वीक में न मेस, न खाना बनाना — कृष्णा रसोई का टिफिन रोज़ ठीक 12 बजे आ जाता था।",
         name: "रोहित",
         area: "दानिश कुंज",
       },

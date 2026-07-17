@@ -1,6 +1,6 @@
 # Krishna Rasoi — Design System
 
-**कृष्ण रसोई · Satvik Food, Pure Delight**
+**कृष्णा रसोई · Satvik Food, Pure Delight**
 Version 1.0 · July 2026 · Derived from 28 uploaded inspiration references + existing brand assets (tiffin-carrier logo with peacock feather, saffron/green identity).
 
 ---
@@ -91,7 +91,7 @@ Ratio ~1.25 (major third), body base 16px / line-height 1.7 (existing, kept — 
 | Token | Size (desktop) | Size (mobile) | Weight | Use |
 |---|---|---|---|---|
 | `display-hero` | fluid, ~7–12vw (caps ~96–150px) | ~15vw (caps ~56px) | 600 serif | The one giant word per page ("रसोई" / "GHAR KA KHANA"). May bleed off-canvas and sit behind the dish. |
-| `display-1` | 56px | 36px | 600 serif | Section heroes ("कृष्ण रसोई क्यों?") |
+| `display-1` | 56px | 36px | 600 serif | Section heroes ("कृष्णा रसोई क्यों?") |
 | `heading-2` | 40px | 28px | 600 serif | Section titles |
 | `heading-3` | 28px | 22px | 600 serif | Card titles, plan names |
 | `title` | 20px | 18px | 600 sans | Sub-titles, nav emphasis |

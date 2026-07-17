@@ -21,7 +21,7 @@ Twelve stops, in this exact order:
  2. HERO — the stage                          [cream]
  3. Trust strip                               [cream, hairline-bound]
  4. आज का मेनू — this week's thalis            [cream]
- 5. कृष्ण रसोई क्यों? — three reasons           [roti cream-100]
+ 5. कृष्णा रसोई क्यों? — three reasons           [roti cream-100]
  6. Plans & pricing                           [cream]
  7. कैसे शुरू करें — three steps                [roti cream-100]
  8. Testimonials                              [peacock-700 · dark register]
@@ -73,7 +73,7 @@ The only section allowed to break the grid. Composition, back to front: warm rad
 │  घर जैसा खाना,                    │   (thali    │                  │
 │  रोज़ ताज़ा                        │  top-down,  │  ┌╌╌╌╌╌╌╌╌╌┐    │
 │                                   │   round)    │  ╎ ₹100     ╎    │
-│  कोलर में छात्रों और बैचलर्स       │            │  ╎ प्रति टिफिन╎    │
+│  कोलार में छात्रों और बैचलर्स       │            │  ╎ प्रति टिफिन╎    │
 │  के लिए घर की रसोई से टिफिन        ╰────────────╯  └╌╌╌╌╌╌╌╌╌┘    │
 │                                 (coriander)  (steam)              │
 │  ┌──────────────────┐ ┌────────────┐○                             │
@@ -131,7 +131,7 @@ Stacks vertically: nav → overline → h1 → subtext → thali (word behind it
 
 A single hairline-bound row, `caption` weight, items separated by small peacock feather glyphs:
 
-`रोज़ ताज़ा ✳ शुद्ध शाकाहारी ✳ घर की रसोई ✳ समय पर डिलीवरी ✳ कोलर में डिलीवरी`
+`रोज़ ताज़ा ✳ शुद्ध शाकाहारी ✳ घर की रसोई ✳ समय पर डिलीवरी ✳ कोलार में डिलीवरी`
 
 - Static, not a marquee. *Why:* the system forbids continuously animated text, and marquees read as ad-tech. A calm strip is a palate cleanser between the theatrical hero and the content sections — the references all insert a quiet band after the hero for exactly this decompression.
 - *Why feather glyphs as separators:* this is the peacock motif's first appearance — introduced small, ornamentally, so its later structural uses (testimonial band, footer) feel inevitable rather than sudden.
@@ -165,7 +165,7 @@ A single hairline-bound row, `caption` weight, items separated by small peacock 
 
 ---
 
-## 6. कृष्ण रसोई क्यों? — three reasons
+## 6. कृष्णा रसोई क्यों? — three reasons
 
 Three cards on `cream-100`, 3-up desktop / stacked mobile. Each: line icon (rupee / dabba-with-steam / scooter-clock) in `peacock-500`, `heading-3` title, two lines of body.
 
@@ -235,7 +235,7 @@ Full-width `peacock-700`. One testimonial visible at a time, cream Fraunces/Tiro
 
 ## 10. Delivery area & timings
 
-Left: heading "कोलर में डिलीवरी" + chips naming served localities (सर्वधर्म, दानिश कुंज, गेहूंखेड़ा, बीमाकुंज …). Right: two glass chips on a soft illustrated map-tint block — `लंच: 12–2 बजे` and `डिनर: 7:30–9 बजे`.
+Left: heading "कोलार में डिलीवरी" + chips naming served localities (सर्वधर्म, दानिश कुंज, गेहूंखेड़ा, बीमाकुंज …). Right: two glass chips on a soft illustrated map-tint block — `लंच: 12–2 बजे` and `डिनर: 7:30–9 बजे`.
 
 **Why locality chips instead of an embedded Google Map:** an iframe map is the heaviest thing a static page can load, and it answers a question ("where exactly is Kolar?") locals don't have. Named neighborhoods answer the real question — *do you come to MY street?* — and double as SEO surface. The map is reduced to a warm decorative tint, not an interactive tool.
 
